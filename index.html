@@ -6,7 +6,7 @@
     <title>Unity WebGL Player | NEXT</title>
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
-    <canvas id="unity-canvas" width=1080 height=4400 tabindex="-1" style="width: 1080px; height: 4400px; background: #231F20"></canvas>
+    <canvas id="unity-canvas" width=1080 height=2400 tabindex="-1" style="width: 1080px; height: 2400px; background: #231F20"></canvas>
     <script src="Build/New folder.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
@@ -25,9 +25,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/New folder.data.br",
-        frameworkUrl: "Build/New folder.framework.js.br",
-        codeUrl: "Build/New folder.wasm.br",
+        dataUrl: "Build/New folder.data",
+        frameworkUrl: "Build/New folder.framework.js",
+        codeUrl: "Build/New folder.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "NEXT",
